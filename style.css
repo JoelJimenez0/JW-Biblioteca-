@@ -1,0 +1,134 @@
+body{
+    background-color: #f2f1ef;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+.main-container{
+    margin: auto;
+    min-height: 100vh;
+    box-shadow: 0px 5px 20px gray;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.aside {
+    width: 50%;
+    background-color: #f2f1ef;
+    padding: 2%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Arial, "Arial Unicode MS", sans-serif;
+}
+header{
+    position: fixed;
+    width: 80%;
+    max-width: inherit;
+    background-color: white;
+    box-shadow: 0px 1px 10px;
+    display: flex;
+    gap: 35%;
+}
+.nav-container{
+    padding-left: 0px; 
+    text-decoration: none;
+    align-items: center;
+    align-items: flex-start;
+}
+.image{
+    max-width: 30px;
+    margin-right: 10px;
+}
+section{
+    float: right;
+} 
+.copyright img{
+    width: 20px;
+}
+a{
+    text-decoration: underline;
+}
+.footer-container {
+    background-color: #eae9e6;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 2rem;
+}
+
+.footer-container div img {
+    width: 20px;
+}
+.footer-container div a {
+    color: #2878bb;
+}
+.idiomas {
+    color: #2878bb;
+}
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #dbd8d3;
+    font-size: 12px;
+    gap: 1rem;
+}
+.torre{
+width: 40px;
+}
+
+.biblioteca{
+    color:#65605e;
+    font-size: 2.2em;
+    font-weight: 400;
+}
+.bienvenido{
+    font-weight: 200;
+    font-size: 1.5em;
+    color: #a0a0a0;
+}
+em{
+    font-style: italic;
+}
+
+.Left-side-container{
+    width: 40%;
+    margin-left: 20px;
+    float: left;
+    background: white;
+    padding-left: 20px;
+    padding-bottom: 129px;
+    padding-right: 24px;
+}
+
+footer{
+    background-color: #eae9e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+.Diary-Text{
+    width: 50%;
+    float: right;
+    text-align: left;
+    padding-right: 50px;
+    font-size: 14px;
+    line-height: 1.5;
+     background-color: white;
+    width: 50%;
+    padding: 2%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: NotoSans, Arial, "Arial Unicode MS", sans-serif;
+}
+footer div img {
+    width: 20px;
+}
+footer div a {
+    color: #2878bb;
+}
+
+footer div a:visited {
+    color: #4a6da7;
+}
